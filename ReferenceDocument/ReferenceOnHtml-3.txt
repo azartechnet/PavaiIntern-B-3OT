@@ -1,0 +1,151 @@
+Html<audio>Tag and Video tags
+==============================
+Definition and Usage:
+=====================
+--The <audio> tag is used to embed sound content in a document such as music or
+other audio stream.
+
+--The <video>tag is used to embed video content in a document such as movieclip or
+other video streams.
+
+Html <iframe>tag:
+=================
+Definition:
+===========
+The <iframe>tag specifies an inline frame
+
+An Inline frame is used to embed another document within the current html documents.
+
+<html>
+    <head>
+        <title>
+            Demo for Iframe
+        </title>
+    </head>
+    <body>
+        <h1>This is the iframe elements</h1>
+        <iframe src="iframepage1.html" width="100%" height="300" style="border: none;"></iframe>
+        <iframe src="login.html" width="100%" height="300" style="border: none;"></iframe>
+    </body>
+</html>
+
+CSS Concepts:
+=============
+What is CSS?
+--Css stands for Cascading style sheets
+--Css describes html elements are to be displayed on screen,in other media.
+--It Can Control the layout of multiple web pages all at onces
+
+Why Use css?
+--Css is used to define styles for your web pages,including the design,layout
+and display for different screen sizes.
+
+Syntax of Css:
+==============
+
+selector        Declaration
+h1       {color:blue;font-size:12px}
+          prty:value
+
+
+
+Differnt type of stylesheet:
+============================
+1.Inline stylesheet
+2.Internal or embbedstyle
+3.External Stylesheet
+
+1.InlineStylesheet
+===================
+--An Inline style may be used to apply unique style for a single tag/element.
+<h1 style="background-color: blue;color: chartreuse;">Welcome-1</h1>
+<h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Welcome-2</h1>
+
+2.Internal Stylesheet
+======================
+--An Internal Stylesheet is used to define a style for single html page.
+<html>
+    <head>
+        <title>
+            Internal stylesheet
+        </title>
+      <style type="text/css">
+      /*Selector */
+        h2
+        {
+            background-color: chocolate;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1
+        {
+            background-color: cornflowerblue;
+        }
+      </style>
+    </head>
+    <body bgcolor="">
+        <h2>Welcome-1</h2>
+        <h1>Welcome-2</h1>
+        <h2>Welcome-1</h2>
+    </body>
+</html>
+
+3.ExternalStylesheet:
+=====================
+--External Css contains separate css file which contains only style property with
+the help of tag attributes.
+<link rel="stylesheet" type="text/css" href="mycss.css"/>
+
+Id selector and class selector:
+===============================
+Id selector and class selector to 
+be work on Internal and External stylesheet
+
+#f1-->This is called as Id
+
+.f2-->This is called as class
+
+
+.ss
+{
+}
+#dd
+{
+}
+
+<h1 class="ss" id="dd">Welcome</h1>
+
+<h1 class="heading headingAnother">Welcome-1</h1>
+
+  <style>
+            .heading 
+            {
+                background-color: cornflowerblue;
+            }
+            #headingAnother
+            {
+                font-family: fantasy;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="heading">Welcome-1</h1>
+        <h2 id="headingAnother">Welcome-2</h2>
+    </body>
+
+Css Background:(task)
+===============
+--define the background effects for differnt elements.
+
+background-color
+background-image
+background-position
+background-attachement
+background-repeat
+
+body
+        {
+            background-image: url("logo.png");
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+            background-position: right top;
+        }

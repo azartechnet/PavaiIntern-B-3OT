@@ -1,0 +1,343 @@
+what is Program?
+--Set of instruction
+
+I/P------------------------O/P
+
+
+
+IT Company to be focus:
+=======================
+Developement
+DataAnalysis
+Three different type of Application
+====================================
+Developement
+=============
+1.Windows based Application
+ Eg:To install the Zoom Software in your system--GUI
+2.WebBased Application(FullStack)
+ Eg:Same Zoom Software work in browser
+3.Android Based Application
+ Eg:Work in Mobile Based Application
+
+What is Full Stack?
+--A full stack is an Web developer is a person both client and Server software.
+--A client to the Web Application
+--Program browser level(JavaScript,Angular,Jquery,html,css,bootstrap)
+--Program work on Server level(NodeJs,ExpressJs)
+--Work on DataBase(SQL,SQLite,MongoDb)
+
+MEANStack--JavaScript--MongoDb--Express--AngularJs--NodeJs
+LAMP--JavaScript-Linux-Apache--MySQL--PHP
+Django--JavaScript--Python--Django--MySQL
+
+Introduction to MEAN Stack
+===========================
+--MEAN Stack is used to develop a Full Stack Web Application.
+
+MEAN Stands
+===========
+M--MongoDb
+E--Express
+A--Angular
+N--NodeJs
+
+HTML-CSS-BOOTSTRAP-JAVASCRIPT
+
+Installing the softwares:
+==========================
+
+https://code.visualstudio.com/download
+
+Who is developing html?
+--Hyper text markup language(HTML)
+--Tim-Berners-Lee in 1993
+--Html4.0.1 Dec 1999
+--Tag based Oriented Language
+--Its Run in browser
+Structure of html:
+==================
+<html>--Open tag
+<head>
+<title>
+SampleTitle Tag here
+</title>
+<script></script>
+<style></style>
+</head>
+<body>
+//code or statement
+</body>
+</html>--Closing tag
+
+Tags in html
+=============
+<button>
+<caption>
+<table>--Create table
+<th>--Table heading
+<tr>--Table row
+<td>--Table data
+<div>--To Sperate multiple Pages
+<span>
+<form>--To create forms
+<input>
+<head>
+<h1> to <h6>
+<iframe>
+<frameset>
+<img>
+<p>
+<u>
+<b>
+<i>
+<br><hr>
+<a href="">
+<hr>
+<li>
+<ol>
+<ul>
+<font>--It not Working in html 5 Instead Using CSS
+<link>
+<select>
+<option>
+<textarea>
+<video>
+<audio>
+<meta>
+<base>
+
+
+<!DOCTYPE html>--HTML5
+
+<!DOCTTYPE HTML PUBLIC"-//W3C//DTD HTML 4.0.1//EN">--HTML4
+
+
+Html Attributs:
+================
+--All html elements can have attributes
+--Attributes provided additional information
+--Attributes usually come in name/value paris like
+<form name="" method=""/>
+<table width="" height="" border=""/>
+<a href=""/>
+<img src=""/>
+
+
+<li>List tag
+=============
+To define the item in list
+
+Ordered list<ol>
+UnOrdered list<ul>
+<html>
+    <head>
+        <title>Program-2</title>
+    </head>
+    <body>
+        <!-- <ul>
+            <h3><b>Get to Know Us</b></h3>
+            
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Press Releases</li>
+             <li>Amazon Cares</li>
+            <li>Gift a Smile</li>
+        </ul> -->
+        <ol type="I">
+            <h3><b>Get to Know Us</b></h3>
+            
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Press Releases</li>
+             <li>Amazon Cares</li>
+            <li>Gift a Smile</li>
+        </ol>
+    </body>
+</html>
+
+<a>Tag--Is used from one page to another page
+<a href="aboutus.html">AboutUs</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="viewdetails.html">ViewDetail</a>
+
+<form>Tag
+--The form tag is used to given input to the user/Getting the input to the user
+<html>
+    <body>
+        <h1>RegisterPage</h1>
+        <form>
+            <label>UserName</label>
+            <input type="text" name="" value=""/>
+            <label>Password</label>
+            <input type="password" name="" value=""/>
+            <label>Address</label>
+            <textarea rows="3"></textarea>
+            <label>Gender</label>
+            Male<input type="radio" name="g1" value=""/>
+            Female<input type="radio" name="g1" value=""/>
+            <label>Course</label>
+            UG<input type="checkbox" name="" value=""/>
+            PG<input type="checkbox" name="" value=""/>
+            <label>Degree</label>
+            <select>
+                <option>MCA</option>
+                <option>MBA</option>
+                <option>BE</option>
+                <option>BTech</option>
+            </select>
+            <input type="submit" value="Register"/>
+            <button type="button">Reset</button>
+        </form>
+    </body>
+</html>
+
+<table>Tag
+--It divide to rows and columns
+Two important attributs is there
+================================
+1.cellpadding
+2.cellspacing
+
+rowspan and colspan
+
+cellpadding:
+============
+--Cellpadding is represents the distance between 
+cell borders and the content within a cell.
+
+cellspacing:
+============
+--CellSpacing is represents to define space between table cells.
+
+
+
+ <h1>StudentInfromation</h1>
+        <table border="1" cellpadding="10" cellspacing="6"><!--To be creating table-->
+          <th>RegisterId</th>
+          <th>StudentName</th>
+          <th>StudentEmail</th>
+          <th>StudentAddress</th>
+          <tr><!--Creating Row-->
+              <td>R2011928001</td>
+              <td>Azar</td>
+              <td>azar@gmail.com</td>
+              <td>Karur</td>
+          </tr>
+          <tr>
+            <td>R2011928002</td>
+            <td>Mohamed</td>
+            <td>mohamed@gmail.com</td>
+            <td>dgl</td>
+        </tr>
+        </table>
+
+What does colspan do?
+--Allow a single table cell to span the width of more than one cell or column
+<html>
+    <body>
+        <table border="1">
+            <caption>Current Age</caption>
+            <tr>
+                <th colspan="2">65</th>
+                <th colspan="2">40</th>
+                <th colspan="2">20</th>
+            </tr>
+            <tr>
+                <th>Men</th>
+                <th>Women</th>
+                <th>Men</th>
+                <th>Women</th>
+                <th>Men</th>
+                <th>Women</th>
+
+            </tr>
+            <tr>
+                <td>82</td>
+                <td>85</td>
+                <td>78</td>
+                <td>82</td>
+                <td>77</td>
+                <td>81</td>
+            </tr>
+        </table>
+    </body>
+</html>
+What does rowspan do>
+--Allow a Single table cell to span the height of more than one cell or row
+<body>
+        <table border="1">
+          <caption>Favorite Foods</caption>
+          <tr>
+              <th></th>
+              <th></th>
+              <th>Mohamed</th>
+              <th>Azar</th>
+          </tr>
+          <tr>
+              <th rowspan="2">Favorite</th>
+              <th>color</th>
+              <th>Blue</th>
+              <th>Green</th>
+          </tr>
+          <tr>
+              <th>Flavor</th>
+              <td>Banana</td>
+              <td>Chocolate</td>
+          </tr>
+        </table>
+    </body>
+
+Creating Form Using Table tag?
+==============================
+<html>
+    <body>
+        <h1>RegisterPage</h1>
+        <form>
+            <table  width="50%" height="50%">
+                <tr>
+                    <td><label>UserName</label></td>
+                    <td> <input type="text" name="" value=""/></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password" name="" value=""/></td>
+                </tr>
+                <tr>
+                    <td><label>Address</label></td>
+                    <td><textarea rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        Male<input type="radio" name="g1" value=""/>
+                        Female<input type="radio" name="g1" value=""/> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Course</label></td>
+                    <td>
+                        UG<input type="checkbox" name="" value=""/>
+                        PG<input type="checkbox" name="" value=""/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Degree</label></td>
+                    <td>
+                        <select>
+                            <option>MCA</option>
+                            <option>MBA</option>
+                            <option>BE</option>
+                            <option>BTech</option>
+                        </select> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Register"/></td>
+                    <td><button type="button">Reset</button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+what is Program?
+--Set of instruction
+IT Company to be focus:
+=======================
+Developement
+DataAnalysis
+Three different type of Application
+====================================
+Developement
+=============
+1.Windows based Application
+ Eg:To install the Zoom Software in your system--GUI
+2.WebBased Application(FullStack)
+ Eg:Same Zoom Software work in browser
+3.Android Based Application
+ Eg:Work in Mobile Based Application
+
+What is Full Stack?
+--A full stack is an Web developer is a person both client and Server software.
+--A client to the Web Application
+--Program browser level(JavaScript,Angular,Jquery,html,css,bootstrap)
+--Program work on Server level(NodeJs,ExpressJs)
+--Work on DataBase(SQL,SQLite,MongoDb)
+
+MEANStack--JavaScript--MongoDb--Express--AngularJs--NodeJs
+LAMP--JavaScript-Linux-Apache--MySQL--PHP
+Django--JavaScript--Python--Django--MySQL
+
+Introduction to MEAN Stack
+===========================
+--MEAN Stack is used to develop a Full Stack Web Application.
+
+MEAN Stands
+===========
+M--MongoDb
+E--Express
+A--Angular
+N--NodeJs
+
+Installing the softwares:
+==========================
+
+https://code.visualstudio.com/download
+
+Who is developing html?
+--Hyper text markup language(HTML)
+--Tim-Berners-Lee in 1993
+--Html4.0.1 Dec 1999
+--Tag based Oriented Language
+--Its Run in browser
+Structure of html:
+==================
+<html>--Open tag
+<head>
+<title>
+SampleTitle Tag here
+</title>
+<script></script>
+<style></style>
+</head>
+<body>
+//code or statement
+</body>
+</html>--Closing tag
+
+Tags in html
+=============
+<button>
+<caption>
+<table>--Create table
+<th>--Table heading
+<tr>--Table row
+<td>--Table data
+<div>--To Sperate multiple Pages
+<span>
+<form>--To create forms
+<input>
+<head>
+<h1> to <h6>
+<iframe>
+<frameset>
+<img>
+<p>
+<u>
+<b>
+<i>
+<br><hr>
+<a href="">
+<hr>
+<li>
+<ol>
+<ul>
+<font>--It not Working in html 5 Instead Using CSS
+<link>
+<select>
+<option>
+<textarea>
+<video>
+<audio>
+<meta>
+<base>
+
+
+<!DOCTYPE html>--HTML5
+
+<!DOCTTYPE HTML PUBLIC"-//W3C//DTD HTML 4.0.1//EN">--HTML4
