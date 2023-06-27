@@ -1,0 +1,5 @@
+navbar navbar-default
+container-fluid
+navbar-header
+nav navbar-nav
+nav navbar-nav navbar-right
